@@ -1,5 +1,8 @@
 FROM ibmcom/tensorflow-ppc64le:latest-devel
 
+
+RUN apt-get update && apt-get install -y sudo
+
 #From https://github.com/jenkinsci/docker-ssh-slave/blob/master/Dockerfile
 ARG user=jenkins
 ARG group=jenkins
