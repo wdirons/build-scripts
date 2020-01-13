@@ -1,4 +1,4 @@
-FROM tensorflowppc64le/tensorflow-ppc64le:devel-cuda10.0-cudnn7-ubuntu18.04-manylinux2014
+FROM tensorflowppc64le/tensorflow-ppc64le:devel-cuda10.1-cudnn7-ubuntu18.04-manylinux2014
 
 
 RUN apt-get update && apt-get install -y sudo
